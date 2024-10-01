@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Profissional de Desenvolvimento, Matheus Galvain">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <title>Portófilo Matheus Galvain - Desenvolvedor</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/portfolio.css" rel="stylesheet" />
+    <link href="css/spotlight.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+</head>
+<header id="header">
+    <div class="box">
+        <ul class="header-nav header-nav-header">
+            <li class="nav-item">
+                <a class="icon-box" href="https://github.com/MatheusGalvain" aria-label="Link do Github" target="_blank">
+                    <i class="portofolioicon icon-header icon-github"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="icon-box" href="https://br.linkedin.com/in/matheus-galvain-127a37238" aria-label="Link do Linkedin" target="_blank">
+                    <i class="portofolioicon icon-header icon-linkedin-ico"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="icon-box" href="https://www.behance.net/matheusgalvain" aria-label="Link do Behance" target="_blank">
+                    <i class="portofolioicon icon-header icon-behance-ico"></i>
+                </a>
+            </li>
+        </ul>
+        <!-- <ul class="header-nav">
+            <li class="nav-item"><a href="#" class="tagnav">Sobre Mim</a></li>
+            <li class="nav-item"><a href="#" class="tagnav">Habilidades</a></li>
+            <li class="nav-item"><a href="#" class="tagnav">Certificados</a></li>
+            <li class="nav-item"><a href="#" class="tagnav">Projetos Contríbuidos</a></li>
+            <li class="nav-item"><a href="#" class="tagnav">Projetos</a></li>
+            <li class="nav-item"><a href="#" class="tagnav">Contato</a></li>
+        </ul> -->
+    </div>
+</header>
+<body>
+    <main id="main-home" class="flex-center">
+        <!-- sessão sobre mim -->
+        <div class="box">
+            <section id="page_section" class="introduction padding-sections">
+                <article class="text-introduction">
+                    <h1>Olá! Seja Bem Vindo!</h1>
+                    <h2>Sou desenvolvedor Júnior, e meu foco é criar experiências significativas para as pessoas. 
+                        Com experiência em diversos projetos, também tenho um forte interesse em UX/UI, sempre buscando 
+                        desenvolver layouts dinâmicos e interfaces intuitivas.</h2>
+                    <div class="buttons-wrapp-home">
+                        <div class="button-linkme">
+                            <a target="_BLANK" href="https://drive.google.com/file/d/1G22RVtigKmAechSGKB59HBRT12fMtCjX/view?usp=sharing" aria-label="Curriculo online" class="contactme-btn">
+                                <i class="portofolioicon icon-email icon-curriculo"></i>
+                                Currículo</a>
+                        </div>
+                        <div class="button-linkme">
+                            <a href="#" aria-label="refêrencia para mandar o e-mail" class="contactme-btn" id="contactme-btn">
+                                <i class="portofolioicon icon-email icon-mail"></i>
+                                Contate-me</a>
+                        </div>
+                    </div>
+                </article>
+                <div class="img-me">
+                    <div class="img-me-ref">
+                        <img class="img-me-img" src="assets/img/eu.jpg" alt="Minha Foto" loading="lazy">
+                    </div>
+                    <canvas id="canvas">Seu navegador não suporta o canvas</canvas>
+                </div>
+            </section>
+        </div>
+        <!-- Sessão Sobre minhas habilidades -->
+        <div class="box">
+            <section id="page_section" class="habilities">
+                <section class="codeblock">
+                    <span class="spancode"><strong>"About_me"</strong> => [</span>
+                        <div class="code-wrapp">
+                            <div class="codelink">
+                                <h1>// nome & sobrenome</h1>
+                                <h2>Matheus Galvain,</h2>
+                            </div>
+                            <div class="codelink">
+                                <h1>// idade</h1>
+                                <h2>24 anos,</h2>
+                            </div>
+                            <div class="codelink">
+                                <h1>// interesses</h1>
+                                <h2> Aprender novas tecnologias,</h2>
+                            </div>
+                            <div class="codelink">
+                                <h1>// linguagens favoritas</h1>
+                                <h2>PHP, Laravel</h2>
+                            </div>
+                        </div>
+                    <span class="spancode">]</span>
+                </section>
+                <article class="text-habilities">
+                    <h1>Sobre mim</h1>
+                    <h2>Me chamo Matheus Galvain, sou um desenvolvedor web Full Stack apaixonado, com experiência no desenvolvimento de aplicações utilizando Laravel e PHP. 
+                        Tenho um grande interesse em aprender novas tecnologias e implementá-las em meus projetos. Sou uma pessoa 
+                        automotivada e dedicada, sempre pronta para adquirir novos conhecimentos e colaborar em equipe.
+                        <br />
+                        <br />
+                        Acredito que a colaboração é fundamental, por isso valorizo o trabalho em equipe e a troca de ideias. Fora do código, gosto de explorar novas 
+                        tendências e me manter atualizado sobre o que está acontecendo no mundo da tecnologia. Estou animado para compartilhar minha paixão por 
+                        desenvolvimento e contribuir para projetos inovadores!
+                        <br />
+                        <br />
+                        "Quem olha para fora sonha, quem olha para dentro acorda."
+                        <br />
+                        <strong>Carlos Jung.</strong>
+                    </h2>
+                </article>
+            </section>
+        </div>
+        <div class="box">
+            <!-- Sessão Sobre tecnologias que eu tenho conhecimento -->
+            <section id="page_section" class="tecnologies">
+                <div class="line-div"></div>
+                <h1 class="tecnology-title">Habilidades</h1>
+                <div class="mc">
+                    <div id="marqueeD" class="marquee horizontal">
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="assets/img/svg/laravel.svg" alt="Logo do laravel" loading="lazy">
+                            </div>
+                            <h1 class="marquetitle">Laravel</h1>
+                        </div>
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="assets/img/svg/html.svg" alt="Logo do html" loading="lazy">
+                            </div>
+                            <h1 class="marquetitle">HTML</h1>
+                        </div>
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="assets/img/svg/js.svg" alt="Logo do javascript" loading="lazy">
+                            </div>
+                            <h1 class="marquetitle">JavaSript</h1>
+                        </div>
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="assets/img/svg/bootstrap.svg" alt="Logo do bootstrap" loading="lazy">
+                            </div>
+                            <h1 class="marquetitle">Bootstrap</h1>
+                        </div>
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="assets/img/svg/php.svg" alt="Logo do php" loading="lazy">
+                            </div>
+                            <h1 class="marquetitle">PHP</h1>
+                        </div>
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="assets/img/svg/react.svg" alt="Logo do react" loading="lazy">
+                            </div>
+                            <h1 class="marquetitle">React JS</h1>
+                        </div>
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="assets/img/svg/python.svg" alt="Logo do python" loading="lazy">
+                            </div>
+                            <h1 class="marquetitle">Python</h1>
+                        </div>
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="assets/img/svg/mysql.svg" alt="Logo do mysql" loading="lazy">
+                            </div>
+                            <h1 class="marquetitle">MySQl</h1>
+                        </div>
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="assets/img/svg/git.svg" alt="Logo do git" loading="lazy">
+                            </div>
+                            <h1 class="marquetitle">Git</h1>
+                        </div>
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="assets/img/svg/figma.svg" alt="Logo do figma" loading="lazy">
+                            </div>
+                            <h1 class="marquetitle">Figma</h1>
+                        </div>
+                    </div>
+                </div>     
+            </section>
+        </div>
+        <!-- Sessão Sobre minhas habilidades -->
+        <div class="box">
+            <section id="page_section" class="certifications">
+                <div class="line-div"></div>
+                <h1 class="titlecerti">Certificados</h1>
+                <div class="box-certifications-wrapp">
+                    <a class="box-certifcation" href="https://cursos.alura.com.br/certificate/a65fe3c2-835d-4e2f-9d7b-a0adb9e92688?trk=public_profile_see-credential" aria-label="link para o certificado" target="_blank">
+                        <img class="certimg" src="assets/img/svg/freelancer.svg" alt="Icone Certificado" loading="lazy">
+                        <h1 class="titlescond">NodeJS: crie uma api rest padronizada e escalável</h1>
+                    </a>
+                    <a class="box-certifcation" href="https://cursos.alura.com.br/certificate/21a90c14-be37-47cb-a04a-24789324b32f?trk=public_profile_certification-title" aria-label="link para o certificado" target="_blank">
+                        <img class="certimg" src="assets/img/svg/freelancer.svg" alt="Icone Certificado" loading="lazy">
+                        <h1 class="titlescond">Expressões Regulares: capturando textos de forma mágica</h1>
+                    </a>
+                    <a class="box-certifcation" href="https://cursos.alura.com.br/certificate/903b84af-25f3-41f6-ab97-5b4feaa61e02?trk=public_profile_certification-title" aria-label="link para o certificado" target="_blank">
+                        <img class="certimg" src="assets/img/svg/freelancer.svg" alt="Icone Certificado" loading="lazy">
+                        <h1 class="titlescond">Rest com NodeJS: api com express e mysql</h1>
+                    </a>
+                    <a class="box-certifcation" href="https://cursos.alura.com.br/certificate/7cc2af2e-8856-439e-a9c6-74907866eeb7?trk=public_profile_certification-title" aria-label="link para o certificado" target="_blank">
+                        <img class="certimg" src="assets/img/svg/freelancer.svg" alt="Icone Certificado" loading="lazy">
+                        <h1 class="titlescond">Fundamentos do Javascript: arrays</h1>
+                    </a>
+                    <a class="box-certifcation" href="https://cursos.alura.com.br/certificate/3e1bd1ea-a2fb-40c3-a964-dd5719fc52e2?trk=public_profile_certification-title" aria-label="link para o certificado" target="_blank">
+                        <img class="certimg" src="assets/img/svg/freelancer.svg" alt="Icone Certificado" loading="lazy">
+                        <h1 class="titlescond">Javascript: objetos</h1>
+                    </a>
+                    <a class="box-certifcation" href="https://cursos.alura.com.br/certificate/67d7ed89-c143-4192-866e-abfd4286d275?trk=public_profile_certification-title" aria-label="link para o certificado" target="_blank">
+                        <img class="certimg" src="assets/img/svg/freelancer.svg" alt="Icone Certificado" loading="lazy">
+                        <h1 class="titlescond">Fundamentos do Javascript: tipos, variáveis e funções</h1>
+                    </a>
+                    <a class="box-certifcation" href="https://cursos.alura.com.br/certificate/16673a2f-6f32-4469-9b87-165ded2f4645?trk=public_profile_certification-title" aria-label="link para o certificado" target="_blank">
+                        <img class="certimg" src="assets/img/svg/freelancer.svg" alt="Icone Certificado" loading="lazy">
+                        <h1 class="titlescond">Git e Github: controle e compartilhe seu código</h1>
+                    </a>
+                    <a class="box-certifcation" href="https://cursos.alura.com.br/certificate/3b46ea37-eb76-4bc7-b2d7-af92718a2e5f?trk=public_profile_certification-title" aria-label="link para o certificado" target="_blank">
+                        <img class="certimg" src="assets/img/svg/freelancer.svg" alt="Icone Certificado" loading="lazy">
+                        <h1 class="titlescond">HTTP: entendendo a web por baixo dos panos</h1>
+                    </a>
+                    <a class="box-certifcation" href="https://cursos.alura.com.br/certificate/5f8d14b2-b44d-410e-91bb-641513cd9956?trk=public_profile_certification-title" aria-label="link para o certificado" target="_blank">
+                        <img class="certimg" src="assets/img/svg/freelancer.svg" alt="Icone Certificado" loading="lazy">
+                        <h1 class="titlescond">JavaScript: explorando a linguagem</h1>
+                    </a>
+                    <a class="box-certifcation" href="https://cursos.alura.com.br/certificate/90133691-40b9-4a7b-a88f-2c616654c4e4?trk=public_profile_certification-title" aria-label="link para o certificado" target="_blank">
+                        <img class="certimg" src="assets/img/svg/freelancer.svg" alt="Icone Certificado" loading="lazy">
+                        <h1 class="titlescond">Organização de Equipes Ágeis: os papéis existentes em uma equipe</h1>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <section id="page_section" class="projectsimgs">
+            <!-- Sessão Sobre meus projetos -->
+            <div class="box-fullwidth">
+                <h1 class="fulltitle">Projetos Contríbuidos</h1>
+                <div class="full-wrapp">
+                    <div class="arrow-wrapp">
+                        <div class="arrow-prev arrowbase">
+                            <span><i class="portofolioicon icon-arrow icon-arrow-left"></i></span>
+                        </div>
+                        <div class="arrow-next arrowbase">
+                            <span><i class="portofolioicon icon-arrow aright icon-arrow-left"></i></span>
+                        </div>
+                    </div>           
+                    <div id="single-item" class="containerimgs">
+                        <a class="logo"><img src="assets/img/project1.png" alt="Projeto 1°" loading="lazy"></a>
+                        <a class="logo"><img src="assets/img/project2.png" alt="Projeto 2°" loading="lazy"></a>
+                        <a class="logo"><img src="assets/img/project3.png" alt="Projeto 3°" loading="lazy"></a>
+                        <a class="logo"><img src="assets/img/project4.png" alt="Projeto 4°" loading="lazy"></a>
+                        <a class="logo"><img src="assets/img/project5.png" alt="Projeto 5°" loading="lazy"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="box">
+            <div id="includebuttondrive">
+                <h1>Você pode ver mais <br />projetos meus aqui!</h1>
+                <a class="btndrive" href="https://drive.google.com/drive/folders/19HMF2iYiOUb6LINh7k5WO_zzH3G9hGVB?usp=sharing" target="_blank" alt="Link de acesso para o drive">
+                    <img src="assets/img/drive.svg" alt="Logo do drive" loading="lazy">Ver mais</a>
+            </div>
+        </div>
+        <!-- Sessão Sobre meus diferenciais -->
+        <section id="page_section" class="differentials">
+            <div class="box diff-box">
+                <div class="diff-wrapp">
+                    <h1>Web Design</h1>
+                    <div class="diff-content">
+                        <div class="diff-content-left">
+                            <div class="content-imgs">
+                                <a class="spotlight" data-src="assets/img/project1web.png" alt="Projeto web 1">
+                                    <img class="minprojectimg" src="assets/img/project1web.png" alt="Projeto web 1" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="content-imgs">
+                                <a class="spotlight" data-src="assets/img/project2web.png" alt="Projeto web 2">
+                                    <img class="minprojectimg" src="assets/img/project2web.png" alt="Projeto web 2" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="content-imgs">
+                                <a class="spotlight" data-src="assets/img/project3web.png" alt="Projeto web 3">
+                                    <img class="minprojectimg" src="assets/img/project3web.png" alt="Projeto web 3" loading="lazy">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="diff-content-right">
+                            <p> O Web Design é visto e considerado uma arte, onde visa criar experiências digitais que combinam a sua estética junto com as funcionalidade. Isso envolve
+                                planejamento e a implementação de elementos visuais, como layouts, cores e tipografia, com o objetivo de tornar a navegação intuitiva e agradável. 
+                                <br>
+                                <br>
+                                Um bom design não apenas atrai o olhar, mas também facilita a interação, permitindo que os usuários encontrem o que precisam de forma eficiente,
+                                e também, é primordial estar atento à performance do site, garantindo que a experiência do usuário seja sempre otimizada.</p>
+                            <div class="button-linkme">
+                                <a href="https://drive.google.com/drive/folders/1G_PPVmZpcPVyFTkscWjvFqmE7K_BFbwI?usp=sharing" target="_blank" aria-label="Pasta dos projetos" class="contactme-btn">VER PROJETOS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="diff-wrapp">
+                    <h1>Mobile Design</h1>
+                    <div class="diff-content">
+                        <div class="diff-content-left">
+                            <div class="content-imgs">
+                                <a class="spotlight" data-src="assets/img/mobile1.png" alt="BiilsBid Project">
+                                    <img class="minprojectimg" src="assets/img/mobile1.png" alt="Projeto mobile 1" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="content-imgs">
+                                <a class="spotlight" data-src="assets/img/mobile2.png" alt="Uri Project">
+                                    <img class="minprojectimg" src="assets/img/mobile2.png" alt="Projeto mobile 2" loading="lazy">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="diff-content-right">
+                            <p>Ter a expertise para a criação de Mobile Design é desafiador por diversas razões e tem sua dificuldade um pouco elevada comparada ao Web Design. 
+                                A variedade de tamanhos de tela exige soluções flexíveis que se adaptem a diferentes dispositivos, enquanto a navegação por toque demanda uma 
+                                abordagem única, distinta da utilizada em desktops. 
+                                <br>
+                                <br>
+                                Por esses motivos, esses fatores tornam o mobile design uma tarefa complexa e exigente, 
+                                onde cada detalhe pode impactar significativamente a experiência do usuário.</p>
+                            <div class="button-linkme">
+                                <a href="https://drive.google.com/drive/folders/1Xl3_9R2OpqWQ7ZB7smbVKPn7WbiIILPA?usp=sharing" aria-label="Pasta dos projetos" target="_blank" class="contactme-btn">VER PROJETOS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sessão Sobre contato -->
+        <section id="page_section" class="mywork">
+            <div class="box flex-center">
+                <div id="container-mail" class="container-wrapp">
+                    <div class="container-titles">
+                        <h1>Gostou do meu trabalho?</h1>
+                        <h2>Vamos conversar! Mande-me um e-mail ou me chame em 
+                            <br/>alguma de minhas redes sociais abaixo:</h1>
+                    </div>
+                    <div class="container-informations">
+                        <div class="myimgmail-container">
+                            <img class="myimgmail" src="assets/img/olho.jpg" alt="Foto ilustrativa" loading="lazy">
+                        </div>
+                        <div class="midiasocial-wrapp">
+                            <ul class="header-nav header-nav-mail">
+                                <li class="nav-item">
+                                    <a class="icon-box" href="https://github.com/MatheusGalvain" aria-label="Link do Github" target="_blank">
+                                        <i class="portofolioicon icon-header icon-github"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="icon-box" href="https://br.linkedin.com/in/matheus-galvain-127a37238" aria-label="Link do Linkedin" target="_blank">
+                                        <i class="portofolioicon icon-header icon-linkedin-ico"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="icon-box" href="https://www.behance.net/matheusgalvain" aria-label="Link do Behance" target="_blank">
+                                        <i class="portofolioicon icon-header icon-behance-ico"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="texts-email">
+                                <h1>Vou adorar receber<br/>seu contato! ;)</h1>
+                                <p>Ou me mande-me um:</p>
+                                <div class="mail">
+                                    <a href="MAILTO:matheusgalvain@gmail.com" class="btn-mail"><i class="portofolioicon icon-bottom-mail icon-mail"></i>E-mail</a>
+                                    <div class="direction">
+                                        <button class="buttoncopy" id="copy">
+                                            <img src="assets/img/svg/copy.svg" alt="Copiar" id="buttonImage">
+                                        </button>
+                                        <input style="opacity: 0; position: absolute;" id="seuTxt" value="matheusgalvain@gmail.com" readonly />
+                                        <div id="mensagem" style="margin-top: 60px; color: green; position: absolute;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="page_section" class="bodytop">
+            <div class="ballicon">
+                <i class="portofolioicon icon-top icon-arrow-left"></i>
+            </div>
+            <h1 class="back-to-top">voltar ao início</div>
+        </section>
+    </main>
+</body>
+<footer id="footer">
+    <div class="box">
+        <h1>© Developer Portfolio by Matheus Galvain</h1>
+    </div>
+</footer>
+<!-- javascript -->
+<script src="js/spotlight.min.js"></script>
+<script src="js/canvas.js"></script>
+<script src="js/scripts.js"></script>
+</html>

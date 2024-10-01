@@ -1,0 +1,301 @@
+@media screen and (min-width: 2200px) and (max-width: 4090px){
+
+}
+@media screen and (min-width: 1651px) and (max-width: 1850px) {
+
+}
+@media screen and (min-width: 1451px) and (max-width: 1650px) {
+	.box{
+		width: 1350px;
+	}
+	#canvas{
+		height: 450px;
+    	width: 270px;
+	}
+	.text-introduction h1{font-size: 75px;}
+	.text-introduction h2{font-size: 24px;}
+	.text-habilities h1{font-size: 70px;}
+	.text-habilities h2{font-size: 18px;}
+	.codeblock{width: 45%;}
+}
+@media screen and (min-width: 1251px) and (max-width: 1450px) {
+	.box{
+		width: 1200px;
+	}
+	#canvas{
+		height: 450px;
+    	width: 270px;
+	}
+	.text-introduction h1{font-size: 65px;}
+	.text-introduction h2{font-size: 22px;}
+	.text-habilities h1{font-size: 70px;}
+	.text-habilities h2{font-size: 18px;}
+	.codeblock{width: 45%;}
+	.diff-wrapp h1{font-size: 70px;}
+}
+@media screen and (min-width: 1151px) and (max-width: 1250px) {
+	.box{
+		width: 1100px;
+	}
+	#canvas{
+		height: 450px;
+    	width: 270px;
+	}
+	.text-introduction h1{font-size: 60px;}
+	.text-introduction h2{font-size: 22px;}
+	.text-habilities h1{font-size: 60px;}
+	.text-habilities h2{font-size: 18px;}
+	.codeblock{width: 45%;}
+	.diff-wrapp h1{font-size: 60px;}
+}
+@media screen and (min-width: 1024px) and (max-width: 1150px) {
+	.box{
+		width: 975px;
+	}
+	#canvas{
+		height: 450px;
+    	width: 270px;
+	}
+	.text-introduction h1{font-size: 55px;}
+	.text-introduction h2{font-size: 22px;}
+	.text-habilities h1{font-size: 60px;}
+	.text-habilities h2{font-size: 18px;}
+	.codeblock{width: 45%;}
+	.diff-wrapp h1{font-size: 60px;}
+}
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+	.box{
+		width: 750px;
+	}
+	.padding-sections{
+		padding-top: 50px;
+	}
+	/* Introdução */
+	.introduction{flex-direction: column; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; align-content: flex-start; gap: 50px; }
+	.text-introduction h1{font-size: 65px;}
+	.text-introduction h2{font-size: 22px;}
+	.img-me {order: 1; width: 100%; margin-bottom: 20px; }
+    .text-introduction {width: 90%; order: 2;}
+	#canvas{height: 450px; width: 270px;}
+	/* End of Region */
+
+	/* Habilidades */
+	.habilities{ flex-direction: column;flex-wrap: wrap; gap: 50px; padding-bottom: 75px;}
+	.text-habilities{width: 100%; justify-content: flex-start; align-items: flex-start; align-items: flex-start;}
+	.text-habilities h1{font-size: 70px;}
+	.text-habilities h2{font-size: 18px; text-align: start;}
+	.codeblock{order: 2;}
+	/* End of region */
+
+	/* Projetos contribuidos */
+	.full-wrapp{
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.fulltitle{
+		padding: 0 0 35px 0;
+	}
+	.containerimgs .logo{
+		height: 530px;
+	}
+	.containerimgs .logo img{
+		width: 600px;
+		height: 500px;
+	}
+	.arrow-wrapp{justify-content: flex-start; order: 2; gap: 30px;}
+	.arrow-prev{box-shadow: none;}
+	.arrow-next{position: initial; box-shadow: none;}
+	/* End of region */
+	/* Projetos */
+	.diff-content{flex-direction: column; flex-wrap: wrap;}
+	.diff-content-right{order: 1; width: 100%;}
+	.diff-content-left{order: 2; width: 100%;}
+	/* End of region */
+
+	.container-wrapp{width: 100%;}
+	.container-titles h2{font-size: 20px;}
+	.texts-email h1{font-size: 20px;}
+	
+}
+@media screen and (min-width: 600px) and (max-width: 799px) {
+	.box{
+		width: 550px;
+	}
+	.padding-sections{
+		padding-top: 50px;
+	}
+	/* Introdução */
+	.introduction{flex-direction: column; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; align-content: flex-start; gap: 50px; }
+	.text-introduction h1{font-size: 65px;}
+	.text-introduction h2{font-size: 22px;}
+	.img-me {order: 1; width: 100%; margin-bottom: 20px; }
+    .text-introduction {width: 90%; order: 2;}
+	#canvas{height: 450px; width: 270px;}
+	/* End of Region */
+
+	/* Habilidades */
+	.habilities{ flex-direction: column;flex-wrap: wrap; gap: 50px; padding-bottom: 50px;}
+	.text-habilities{width: 100%; justify-content: flex-start; align-items: flex-start; align-items: flex-start;}
+	.text-habilities h1{font-size: 70px;}
+	.text-habilities h2{font-size: 18px; text-align: start;}
+	.codeblock{order: 2; width: 100%}
+	/* End of region */
+
+	/* Projetos contribuidos */
+	.full-wrapp{
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+	.fulltitle{
+		padding: 0 0 35px 0;
+	}
+	.containerimgs .logo{
+		height: 450px;
+	}
+	.containerimgs .logo img{
+		width: 520px;
+		height: 450px;
+	}
+	.arrow-wrapp{justify-content: flex-start; order: 2; gap: 30px;}
+	.arrow-prev{box-shadow: none;}
+	.arrow-next{position: initial; box-shadow: none;}
+	/* End of region */
+	/* Projetos */
+	.diff-content{flex-direction: column; flex-wrap: wrap;}
+	.diff-content-right{order: 1; width: 100%;}
+	.diff-content-left{order: 2; width: 100%;}
+	#includebuttondrive{flex-direction: column; flex-wrap: wrap; justify-content: center; align-items: center; align-content: center; gap: 20px;}
+	/* End of region */
+
+	.container-wrapp{width: 100%;}
+	.container-titles h1{text-align: center;}
+	.container-titles h2{font-size: 20px;}
+	.texts-email h1{font-size: 20px;}
+	.container-informations{flex-direction: column; flex-wrap: wrap; gap: 60px;}
+}
+@media screen and (min-width: 460px) and (max-width: 599px) {
+	.box{
+		width: 410px;
+	}
+	.padding-sections{
+		padding-top: 50px;
+	}
+	/* Introdução */
+	.introduction{flex-direction: column; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; align-content: flex-start; gap: 50px; padding-bottom: 0;}
+	.text-introduction h1{font-size: 65px;}
+	.text-introduction h2{font-size: 22px;}
+	.img-me {order: 1; width: 100%; margin-bottom: 20px; }
+    .text-introduction {width: 90%; order: 2;}
+	#canvas{height: 450px; width: 270px;}
+	.contactme-btn{width: 165px; font-size: 18px;}
+	/* End of Region */
+
+	/* Habilidades */
+	.habilities{ flex-direction: column;flex-wrap: wrap; gap: 50px; padding-bottom: 50px;}
+	.text-habilities{width: 100%; justify-content: flex-start; align-items: flex-start; align-items: flex-start;}
+	.text-habilities h1{font-size: 70px;}
+	.text-habilities h2{font-size: 18px; text-align: start;}
+	.codeblock{order: 2; width: 100%}
+	/* End of region */
+
+	/* Projetos contribuidos */
+	.box-fullwidth{padding: 35px 5px 0 24px;}
+	.full-wrapp{
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+	.fulltitle{
+		padding: 0 0 35px 0;
+	}
+	.containerimgs .logo{
+		height: 350px;
+	}
+	.containerimgs .logo img{
+		width: 400px;
+		height: 350px;
+	}
+	.arrow-wrapp{justify-content: flex-start; order: 2; gap: 30px;}
+	.arrow-prev{box-shadow: none;}
+	.arrow-next{position: initial; box-shadow: none;}
+	#includebuttondrive h1{font-size: 16px;}
+	/* End of region */
+	/* Projetos */
+	.differentials{padding-bottom: 50px;}
+	.diff-content{flex-direction: column; flex-wrap: wrap;}
+	.diff-content-right{order: 1; width: 100%;}
+	.diff-wrapp h1{font-size: 70px;}
+	.diff-content-left{order: 2; width: 100%;}
+	/* End of region */
+
+	.container-wrapp{width: 100%; border-radius: 20px;}
+	.container-titles h1{text-align: center; font-size: 35px;}
+	.container-titles h2{font-size: 18px;}
+	.texts-email h1{font-size: 20px;}
+	.container-informations{flex-direction: column; flex-wrap: wrap; gap: 60px;}
+}
+@media screen and (min-width: 360px) and (max-width: 459px) {
+	.box{
+		width: 340px;
+	}
+	.padding-sections{
+		padding-top: 50px;
+	}
+	/* Introdução */
+	.introduction{flex-direction: column; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; align-content: flex-start; gap: 50px; padding-bottom: 0;}
+    .text-introduction {width: 90%; order: 2; gap: 30px;}
+	.text-introduction h1{font-size: 55px;}
+	.text-introduction h2{font-size: 22px;}
+	.img-me {order: 1; width: 100%; margin-bottom: 20px; }
+	#canvas{height: 400px; width: 260px;}
+	.buttons-wrapp-home{flex-direction: column; flex-wrap: wrap;}
+	.contactme-btn{width: 165px; font-size: 18px;}
+	/* End of Region */
+
+	/* Habilidades */
+	.habilities{ flex-direction: column;flex-wrap: wrap; gap: 50px; padding-bottom: 50px;}
+	.text-habilities{width: 100%; justify-content: flex-start; align-items: flex-start; align-items: flex-start; gap: 30px;}
+	.text-habilities h1{font-size: 50px;}
+	.text-habilities h2{font-size: 18px; text-align: start;}
+	.codeblock{order: 2; width: 100%; flex-wrap: nowrap;}
+	.codelink{width: 100%;}
+	/* End of region */
+
+	/* Projetos contribuidos */
+	.box-fullwidth{padding: 35px 5px 0 11px; flex-direction: initial; gap: 30px;}
+	.full-wrapp{
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+	.fulltitle{
+		padding: 0;
+	}
+	.containerimgs .logo{
+		height: 250px;
+	}
+	.containerimgs .logo img{
+		width: 320px;
+		height: 250px;
+	}
+	.arrow-wrapp{justify-content: flex-start; order: 2; gap: 30px;}
+	.arrow-prev{box-shadow: none;}
+	.arrow-next{position: initial; box-shadow: none;}
+	#includebuttondrive{flex-direction: column; flex-wrap: wrap; justify-content: center; align-items: center; align-content: center; gap: 20px;}
+	#includebuttondrive h1{font-size: 16px;}
+	/* End of region */
+	/* Projetos */
+	.differentials{padding-bottom: 50px;}
+	.diff-content{flex-direction: column; flex-wrap: wrap;}
+	.diff-content-right{order: 1; width: 100%;}
+	.diff-wrapp{gap: 30px;}
+	.diff-wrapp h1{font-size: 55px;}
+	.diff-content-left{order: 2; width: 100%;}
+	/* End of region */
+
+	.container-wrapp{width: 100%; padding: 40px; border-radius: 10px;}
+	.container-titles h1{text-align: center; font-size: 35px;}
+	.container-titles h2{font-size: 18px;}
+	.texts-email h1{font-size: 20px;}
+	.container-informations{flex-direction: column; flex-wrap: wrap; gap: 60px;}
+}
