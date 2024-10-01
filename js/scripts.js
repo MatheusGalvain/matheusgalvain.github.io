@@ -17,7 +17,7 @@ $(document).ready(function(){
     });
     $('.diff-content-left').slick({
         slidesToShow: 1,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         autoplay: false,
         infinite: false,
         arrows: false,
